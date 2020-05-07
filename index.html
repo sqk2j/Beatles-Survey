@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>The Beatles Survey: A Simple Survey</title>
+</head>
+<body>
+<div class="title-container">
+    <h1 id="title">The Beatles: A Simple Survey</h1>
+</div>
+<div class="heads-container">
+    <img src="https://static.billboard.com/files/media/the-beatles-1964-650a-compressed.jpg" alt="George, Paul, Ringo, and John">
+</div>
+<div class="description-container">
+<div class="description-block">
+    <p id="description">Simply put, this is a silly, little Beatles survey.</p>
+</div>
+</div>
+<form id="survey-form"> 
+<div class="p-info-container">
+<div class="p-info-block">
+    <label id="name-label" for="name">Name
+        <input id="name" type="text" placeholder="..name.."required>
+    </label>
+    <label id="number-label" for="number">Age
+        <input id="number" type="number" placeholder="..age.." min="0" max="200" required>
+    </label>
+    <label id="email-label" for="email">Email
+        <input id="email" type="email" placeholder="..email.." required>
+    </label>   
+</div>
+</div>
+<div class="section-heading">
+    <p class="heading-text">1. Favorite Beatle?</p>
+</div>
+<div class="headshot-container">
+<div class="headshot-block">
+    <img id="john" alt="John Lennon" src="https://www.beatlesbible.com/wp/media/white-album-portrait-john-lennon.jpg">
+    <img id="paul" alt="Paul McCartney" src="https://www.beatlesbible.com/wp/media/white-album-portrait-paul-mccartney.jpg">
+    <img id="george" alt="George Harrison" src="https://www.beatlesbible.com/wp/media/white-album-portrait-george-harrison.jpg">
+    <img id="ringo" alt="Ringo Star" src="https://www.beatlesbible.com/wp/media/white-album-portrait-ringo-starr.jpg">
+</div>
+</div>
+<div class="fav-beatle-container">
+<div class="fav-beatle-block">
+    <label id="dropdown-label" for="dropdown">
+    <select id="dropdown">
+        <option value=""disabled selected>-Favorite Beatle-</option>
+        <option class="john" value="John">John</option>
+        <option class="paul" value="Paul">Paul</option>
+        <option class="george" value="George">George</option>
+        <option class="ringo" value="Ringo">Ringo</option>
+    </select>
+    </label>
+</div>
+</div>
+<div class="section-heading">
+    <p class="heading-text">2. Favorite Beatles' Album?</p>
+</div>
+<div class="album-cover-container">
+    <div class="album-cover-block">
+        <img class="cover" alt="Please Please Me cover" src="https://www.beatlesbible.com/wp/media/please_please_me.jpg">
+        <img class="cover" alt="With the Beatles cover" src="https://www.beatlesbible.com/wp/media/with_the_beatles.jpg">
+        <img class="cover" alt="A Hard Day's Night cover" src="https://www.beatlesbible.com/wp/media/hard-days-night.jpg">
+        <img class="cover" alt="Beatles For Sale cover" src="https://www.beatlesbible.com/wp/media/beatles-for-sale.jpg">
+        <img class="cover" alt="Help cover" src="https://www.beatlesbible.com/wp/media/help.jpg">
+        <img class="cover" alt="Rubber Soul cover" src="https://www.beatlesbible.com/wp/media/rubber_soul.jpg">
+        <img class="cover" alt="Revolver cover" src="https://www.beatlesbible.com/wp/media/revolver.jpg">
+        <img class="cover" alt="Sgt Pepper's Lonely Hearts Club Band cover" src="https://www.beatlesbible.com/wp/media/sgt_pepper.jpg">
+        <img class="cover" alt="Magical Mystery Tour cover" src="https://www.beatlesbible.com/wp/media/magical_mystery_tour.jpg">
+        <img class="cover" alt="The Beatles (White Album) cover" src="https://www.beatlesbible.com/wp/media/white_album.jpg">
+        <img class="cover" alt="Yellow Submarine cover" src="https://www.beatlesbible.com/wp/media/yellow_submarine.jpg">
+        <img class="cover" alt="Abbey Road cover" src="https://www.beatlesbible.com/wp/media/abbey_road.jpg">
+        <img class="cover" alt="Let it Be cover" src="https://www.beatlesbible.com/wp/media/let_it_be.jpg">
+    </div>
+</div>
+<div class="fav-album-container">
+<ul class="fav-album-block">
+    <li><input id="please-please" value="Please Please Me (1963)" type="radio" name="favorite-album">
+            <label for="please-please">Please Please Me (1963)</label></li>
+    <li><input id="with-beatles" value="With The Beatles (1963)" type="radio" name="favorite-album">
+            <label for="with-beatles">With The Beatles (1963)</label></li>    
+    <li><input id="hard-day" value="A Hard Day's Night (1964)" type="radio" name="favorite-album">   
+            <label for="hard-day">A Hard Day's Night (1964)</label></li>
+    <li><input id="for-sale" value="Beatles For Sale (1964)" type="radio" name="favorite-album">   
+            <label for="for-sale">Beatles For Sale (1964)</label></li>   
+    <li><input id="help" value="Help (1965)" type="radio" name="favorite-album">   
+            <label for="help">Help (1965)</label></li>   
+    <li><input id="rubber" value="Rubber Soul (1965)" type="radio" name="favorite-album">   
+            <label for="rubber">Rubber Soul (1965)</label></li>       
+    <li><input id="rev" value="Revovler (1966)" type="radio" name="favorite-album">
+            <label for="rev">Revovler (1966)</label></li>       
+    <li><input id="sgt" value="Sgt Pepper's Lonely Hearts Club Band (1967)" type="radio" name="favorite-album">
+            <label for="sgt">Sgt Pepper's Lonely Hearts Club Band (1967)</label></li>
+    <li><input id="magical" value="Magical Mystery Tour (1976)" type="radio" name="favorite-album">
+            <label for="magical">Magical Mystery Tour (1976)</label></li>
+    <li><input id="white-album" value="The Beatles (White Album)(1968)" type="radio" name="favorite-album">
+         <label for="white-album">The Beatles (White Album)(1968)</label></li>
+       <li><input id="yellow-sub" value="Yellow Submarine (1969)" type="radio" name="favorite-album">
+        <label for="yellow-sub">Yellow Submarine (1969)</label></li>
+    <li><input id="abbey" value="Abbey Road (1969)" type="radio" name="favorite-album">
+        <label for="abbey">Abbey Road (1969)</label></li>
+    <li><input id="let-it-be" value="Let it Be (1970)" type="radio" name="favorite-album">
+        <label for="let-it-be">Let it Be (1970)</label></li>     
+</ul>
+</div>
+<div class="section-heading">
+    <p class="heading-text">Who is the 5th Beatle?</p>
+</div>
+<div class="fifth-container">
+    <div class="fifth-block">
+        <img id="brian" alt="Brian Epstein" src="https://ksr-ugc.imgix.net/assets/011/991/030/4d7c45a2f1ab4e2871f4d5ccbdae7ffe_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463722066&auto=format&frame=1&q=92&s=ed4105f7fa4cdb7f76fed58bb1027ed9">
+        <img id="eric"  alt="Eric Claptopn" src="https://cdn.cnn.com/cnnnext/dam/assets/150211161009-01-pattie-boyd-restricted-exlarge-169.jpg">
+        <img id="martin" alt="George Martin" src="https://media.npr.org/assets/img/2016/03/09/gettyimages-88429425_wide-4927b2a0281ac814c0e3d973062639840871f0ec-s1400-c85.jpg">
+        <img id="billy" alt="Billy Preston" src="https://cdn.cnn.com/cnnnext/dam/assets/160309104158-billy-preston-beatle-exlarge-169.jpg">
+    </div>
+</div>
+<div class="five-beatle-container">
+    <ul class="five-beatle-block">
+        <li><input id="brian-epstein" value="Brian Epstein" type="checkbox" name="fifth-beatle">
+            <label for="brian-epstein">Brian Epstein</label></li>
+        <li><input id="eric-clapton" value="Eric Clapton" type="checkbox" name="fifth-beatle">
+            <label for="eric-clapton">Eric Clapton</label></li>  
+         <li> <input id="george-martin" value="George Martin" type="checkbox" name="fifth-beatle">
+            <label for="george-martin">George Martin</label></li>   
+        <li><input id="billy-preston" value="Billy Preston" type="checkbox" name="fifth-beatle">
+            <label for="billy-preston">Billy Preston</label></li>
+        <li><input id="only-four" value="There are ONLY 4 Beatles" type="checkbox" name="fifth-beatle">
+            <label for="only-four">There are ONLY 4 Beatles</label></li>
+    </ul>
+</div>
+<div class="textbox-container">  
+    <div class="textbox-block">    
+        <textarea id="feedback" placeholder="Final Thoughts..."></textarea>
+    </div>
+</div>
+<div class="submit-container">
+    <div class="submit-block">
+        <button id="submit" type="submit">Submit</button>
+    </div>
+</div>       
+</form>
+</body>
+</html>

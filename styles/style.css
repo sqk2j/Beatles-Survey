@@ -1,0 +1,201 @@
+body{
+width: 100%
+}
+
+h1{
+font-size: xx-large;
+}
+
+p{
+font-size: large;
+padding-bottom: 10px;
+}
+
+.section-heading{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+background-color: black
+}
+
+.heading-text{
+display: flex;
+flex-flow: row nowrap;
+justify-content:space-evenly;
+align-items: center;
+width: 650px;
+height: auto;
+background-color: white;
+padding-bottom: 5px;
+}
+
+.title-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto;
+background-color: black;
+}
+
+#title{
+color: white;
+padding: 30px 0px 10px 0px;
+}
+
+.heads-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height: auto;
+background-color: black;
+border-bottom: 20px solid black;
+}
+.description-container{
+display: flex;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items: center;
+background-color:black;
+border-bottom: 1px solid black;
+}
+
+.description-block{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 650px;
+height: 50px;
+background-color: white;
+}
+.p-info-container{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items: center;
+background-color:black;
+}
+
+.p-info-block{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 650px;
+height: 50px;
+background-color: white;
+padding-top: 5px;
+padding-bottom: 10px; 
+}
+
+.headshot-container, .album-cover-container, .fifth-container{
+display: flex;
+flex-flow: row wrap;
+width:100%;
+height: auto;
+justify-content: center;
+align-items: center;
+background-color: black;
+}
+
+.headshot-block, .album-cover-block, .fifth-block{
+width: 650px;
+height: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+padding-bottom: 5px;
+}
+.cover{
+width: 7%;
+height: auto; 
+flex-shrink:-1;  
+}
+
+#john, #paul, #george, #ringo{
+width: 25%;
+height: auto;
+flex-shrink: -1;
+}
+#billy, #martin, #eric, #brian{
+    width: 25%;
+    height: auto;
+    flex-shrink: -1;  
+}
+
+.fav-beatle-container{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items: center;
+background-color:black;
+}
+
+.fav-beatle-block{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 650px;
+height: auto;
+background-color: white;
+padding-bottom:20px; 
+}
+
+.fav-album-container{
+display: flex;
+flex-flow: row nowrap;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items: center;
+background-color:black;
+}
+
+.fav-album-block{
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+width: 650px;
+height: auto;
+background-color: white;
+padding-bottom: 20px;
+}
+
+.five-beatle-container, .textbox-container, .submit-container{
+display: flex;
+flex-flow: row nowrap;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items: center;
+background-color:black;  
+}
+
+.five-beatle-block, .textbox-block{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 650px;
+height: auto;
+background-color: white;
+padding-bottom: 10px;
+}
+.submit-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+    height: auto;
+    background-color: black;
+    padding-bottom:20px;
+    padding-top: 10px;
+}
